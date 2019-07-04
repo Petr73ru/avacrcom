@@ -1,0 +1,124 @@
+*
+  margin 0
+  padding 0
+  border 0
+section.one
+  background url("../img/Layer 1 copy.png")
+  padding 16px
+  text-align center
+  background-size cover
+section.one article
+  display inline-block
+  margin 8px 0
+section.one article.one strong
+  font-size 50px
+  display table-cell
+  vertical-align middle
+section.one article.one span
+  color red
+section.one article.one i
+  display table-cell
+  width 90px
+  height 90px
+  background url("../img/Car.png")
+section.one aside#triangle-left
+  width 0
+  height 0
+  border-top 23px solid transparent
+  border-right  15px solid rgba(216,218,217,.8)
+  border-bottom 23px solid transparent
+  display inline-block
+  position relative
+  top -25px
+section.one article.two
+  text-align right
+  font-size 25px
+  padding 6px 8px
+  background-color rgba(216,218,217,.8)
+  border-radius 12px
+  line-height 1.8
+mark
+  background-color transparent
+mark.red
+  color red
+mark.tel
+  font-size 33px
+  border-bottom black 4px dashed
+mark.upper
+  text-transform uppercase
+section.one article.three
+  position relative
+  left -132px
+section.one article.three p
+  background-color #fff
+  width -moz-fit-content /* Firefox */
+  padding 0 8px
+  font-size 28px
+  margin 8px 0
+  text-align left
+section.one article.four
+  position relative
+  left -210px
+section.one article.four form input
+  width 100%
+  height 48px
+  background transparent
+  color black
+  border-bottom 2px solid black
+::placeholder /* Chrome, Firefox, Opera, Safari 10.1+ */
+  color black
+  opacity: 1; /* Firefox */
+:-ms-input-placeholder /* Internet Explorer 10-11 */
+  color black
+::-ms-input-placeholder /* Microsoft Edge */
+  color black
+section.one article.four form input.submit
+  background-color red
+section.two
+  max-width 980px
+  margin auto
+section.two h2
+  padding 50px 0
+  font-weight lighter
+section.two article
+  display inline-block
+  line-height 140px
+  width 310px
+  padding 10px 0
+  margin-right 16px
+section.two article p, section.two article figure
+  display inherit
+  line-height normal
+  vertical-align middle
+section.two article p
+  width 160px
+section.two figure
+  width 140px
+  height 140px
+  margin-right 8px
+  border-radius 50%
+figure.one
+  background url("../img/1.png")
+figure.two
+  background url("../img/2.png")
+figure.three
+  background url("../img/3.png")
+figure.four
+  background url("../img/4.png")
+figure.five
+  background url("../img/5.png")
+figure.six
+  background url("../img/6.png")
+section.three
+  background-color #f7f7f7
+main
+  max-width 980px
+  margin auto
+section.three ul
+  list-style-image url("../img/check_mark.png")
+  padding-left 50px
+section.three mark
+  vertical-align top
+  line-height 56px
+section.four article
+  display block
