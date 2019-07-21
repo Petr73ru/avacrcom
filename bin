@@ -1,0 +1,3 @@
+#!/bin/bash
+jade -w -o prod/ dev/index.jade &
+stylus -w -o prod/css dev/index.stylus
